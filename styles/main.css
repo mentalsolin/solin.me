@@ -151,15 +151,17 @@ body {
 .crypto__hash {
     font-size: 18px;
     color: #fff;
-    width: 250px;
+    width: 100%;
     word-break: break-all;
-    margin: 0 auto;
+    margin: 0;
+    margin-top: 14px;
+    margin-bottom: 16px;
+
     text-align: center;
     user-select: all;
     font-family: 'JetBrains Mono', consolas;
-    padding: 20px 0;
-    z-index: 2;
-    position: static;
+
+    padding: 0 50px;
 }
 
 .crypto__qr {
