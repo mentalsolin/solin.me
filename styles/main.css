@@ -105,14 +105,18 @@ body {
     width: 100%;
     height: 80px;
     background-color: #000;
-    display: flex;
-    justify-content: space-between;
     border-radius: 20px;
     position: relative;
 }
 
 .donate__bar--extended {
-    height: 520px;
+    height: 100%;
+}
+
+.donate__bar--title {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
 }
 
 .donate__bar--icon {
@@ -141,9 +145,7 @@ body {
 }
 
 .crypto {
-    position: absolute;
     width: 100%;
-    margin-top: 65px;
 }
 
 .crypto__hash {
@@ -155,7 +157,13 @@ body {
     text-align: center;
     user-select: all;
     font-family: 'JetBrains Mono', consolas;
-    padding-bottom: 27px;
+    padding: 20px 0;
+    z-index: 2;
+    position: static;
+}
+
+.crypto__qr {
+    margin: 0 15px;
 }
 
 .hidden {
