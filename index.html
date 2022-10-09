@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+
+    <link id="icon" rel="icon" href="https://www.solinofficial.com/favicon.svg">
+
+    <title>Solin's Fast Links</title>
+</head>
+<body class="page__body">
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title">Solin4035</h1>
+        </header>
+        <main class="wrapper">
+            <ul class="bars">
+                <li class="social__bar solin">
+                    <img class="social__bar--icon" src="icons/solin.svg" alt="#">
+                    <p class="social__bar--nickname">My Website</p>
+                    <a class="social__bar--link" href="https://www.solinofficial.com/"></a>
+                </li>
+                <li class="social__bar solin-blog">
+                    <img class="social__bar--icon" src="icons/solin-blog.svg" alt="#">
+                    <p class="social__bar--nickname">Solin's Blog</p>
+                    <a class="social__bar--link" href="https://blog.solinofficial.com/"></a>
+                </li>
+                <li class="social__bar github">
+                    <img class="social__bar--icon" src="icons/github.svg" alt="#">
+                    <p class="social__bar--nickname">SolinCode</p>
+                    <a class="social__bar--link" href="https://github.com/SolinCode"></a>
+                </li>
+                <li class="social__bar instagram">
+                    <img class="social__bar--icon" src="icons/instagram.svg" alt="#">
+                    <p class="social__bar--nickname">cutesolin</p>
+                    <a class="social__bar--link" href="https://www.instagram.com/cutesolin/"></a>
+                </li>
+                <li class="social__bar twitter">
+                    <img class="social__bar--icon" src="icons/twitter.svg" alt="#">
+                    <p class="social__bar--nickname">mentalsolin</p>
+                    <a class="social__bar--link" href="https://twitter.com/mentalsolin"></a>
+                </li>
+                <li class="social__bar vkontakte">
+                    <img class="social__bar--icon" src="icons/vkontakte.svg" alt="#">
+                    <p class="social__bar--nickname">mentalsolin</p>
+                    <a class="social__bar--link" href="https://vk.com/mentalsolin"></a>
+                </li>
+            </ul>
+            <div class="donate__header">
+                <img class="donate__header--arrow" src="icons/arrow.svg" alt="#">
+                <h2 class="donate__title">Donate</h2>
+                <img class="donate__header--arrow" src="icons/arrow.svg" alt="#">
+            </div>
+            <ul class="bars">
+                <li class="social__bar solin">
+                    <img class="social__bar--icon" src="icons/donation-alerts.svg" alt="#">
+                    <p class="social__bar--nickname">DonationAlerts</p>
+                    <a class="social__bar--link" href="https://www.donationalerts.com/r/solin4035"></a>
+                </li>
+                <li class="donate__bar solin-blog" id="tether">
+                    <img class="donate__bar--icon" src="icons/tether.svg" alt="#">
+                    <p class="donate__bar--nickname">Tether TRC20</p>
+                    <a class="donate__bar--link" onclick="change('tether', 'tetherQR')"></a>
+                    <div class="crypto hidden" aria-hidden="true" id="tetherQR">
+                        <img class="crypto__qr" src="icons/qr-code/tether-qr.svg" alt="#">
+                        <p class="crypto__hash">0x1808c19E2339755A14499d08B4260ec7c14F501E</p>
+                    </div>
+                </li>
+                <li class="donate__bar solin-blog" id="bitcoin">
+                    <img class="donate__bar--icon" src="icons/bitcoin.svg" alt="#">
+                    <p class="donate__bar--nickname">Bitcoin BTC</p>
+                    <a class="donate__bar--link" onclick="change('bitcoin', 'bitcoinQR')"></a>
+                    <div class="crypto hidden" id="bitcoinQR">
+                        <img class="crypto__qr" src="icons/qr-code/bitcoin-qr.svg" alt="#">
+                        <p class="crypto__hash">bc1qeffwk8vwtspkgpkka3urwrrg02s3pk2hg35lxv</p>
+                    </div>
+                </li>
+            </ul>
+        </main>
+    </div>
+    <script src="scripts/bars.js"></script>
+</body>
+</html>
