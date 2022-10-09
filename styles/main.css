@@ -17,6 +17,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 25px;
+    padding-top: 0;
     margin: 0 auto;
     flex-wrap: wrap;
 }
@@ -26,7 +27,7 @@ body {
 }
 
 .header {
-    margin: 40px 0;
+    margin: 35px 0;
 }
 
 .header__logo {
