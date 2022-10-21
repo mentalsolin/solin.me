@@ -1,5 +1,5 @@
 @media (prefers-color-scheme: light) {
-    .light {
+    .page__body {
         --bg-color: #fff;
         --logo-color: #000;
 
@@ -10,7 +10,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    .dark {
+    .page__body {
         --bg-color: #000;
         --logo-color: #fff;
 

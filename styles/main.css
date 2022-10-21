@@ -5,6 +5,32 @@
 }
 
 
+/* Colors */
+
+@media (prefers-color-scheme: light) {
+    .page__body {
+        --bg-color: #fff;
+        --logo-color: #000;
+
+        --bar-color: #000;
+        --bar-border-color: none;
+        --text-color: #fff;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .page__body {
+        --bg-color: #000;
+        --logo-color: #fff;
+
+        --bar-color: #000;
+        --bar-border-color: #fff;
+        --text-color: #fff;
+
+    }
+}
+
+
 /* Page */
 
 .page {
@@ -17,16 +43,18 @@
     justify-content: center;
     margin: 0;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Montserrat', sans-serif;
     user-select: none;
 }
+
 
 
 /* Wrapper */
 
 .wrapper {
     width: 428px;
+    max-width: 100%;
     padding: 15px;
 }
 
@@ -65,7 +93,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px var(--bar-border-color) solid;
+    border: 1px var(--bar-border-color) solid;
 }
 
 .social__bar--two {
@@ -127,7 +155,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    border: 2px var(--bar-border-color) solid;
+    border: 1px var(--bar-border-color) solid;
 }
 
 .donate__bar--heading {
