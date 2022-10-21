@@ -1,0 +1,22 @@
+@media (prefers-color-scheme: light) {
+    .light {
+        --bg-color: #fff;
+        --logo-color: #000;
+
+        --bar-color: #000;
+        --bar-border-color: none;
+        --text-color: #fff;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .dark {
+        --bg-color: #000;
+        --logo-color: #fff;
+
+        --bar-color: #000;
+        --bar-border-color: #fff;
+        --text-color: #fff;
+
+    }
+}
