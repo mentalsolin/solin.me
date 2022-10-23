@@ -193,22 +193,19 @@
 }
 
 .donate__bar--hidden {
-
+    padding: 0 15px;
 }
 
 .donate__bar--qr {
-    width: 373px;
+    width: 100%;
     padding: 25px;
     background-color: #fff;
-    margin: 15px;
     border-radius: 25px;
 }
 
 .donate__bar--hash {
     margin: 0;
-    padding: 15px 60px;
-    padding-top: 0;
-    padding-bottom: 19px;
+    padding: 18px 45px 25px 45px;
     font-family: jetbrains mono,consolas;
     font-size: 18px;
     color: var(--text-color);
