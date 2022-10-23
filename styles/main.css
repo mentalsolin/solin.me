@@ -197,8 +197,11 @@
 }
 
 .donate__bar--qr {
-    width: 100%;
-    padding: 15px;
+    width: 373px;
+    padding: 25px;
+    background-color: #fff;
+    margin: 15px;
+    border-radius: 25px;
 }
 
 .donate__bar--hash {
