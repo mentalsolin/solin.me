@@ -39,9 +39,6 @@
 
 .page__body {
     background-color: var(--bg-color);
-    display: flex;
-    justify-content: center;
-    margin: 0;
     font-weight: 500;
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
@@ -56,6 +53,8 @@
     width: 428px;
     max-width: 100%;
     padding: 15px;
+    margin: 0 auto;
+    padding-bottom: 0;
 }
 
 
@@ -213,4 +212,29 @@
     word-break: break-all;
     text-align: center;
     user-select: all;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 18px 10px;
+}
+
+.footer__credits {
+    display: flex;
+    justify-content: center;
+}
+
+.footer__credits--style {
+    margin: 0;
+    font-size: 18px;
+    color: #aeaeae;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footer__credits--separator {
+    margin: 0 8px;
 }
