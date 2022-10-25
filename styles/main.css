@@ -61,7 +61,7 @@
 /* Logo */
 
 .logo {
-    margin: 40px 30px;
+    margin: 30px 20px;
 }
 
 .logo__image {
@@ -79,7 +79,7 @@
     margin: 0;
     padding: 0;
     display: grid;
-    row-gap: 25px;
+    row-gap: 15px;
     list-style-type: none;
 }
 
@@ -93,6 +93,7 @@
     justify-content: space-between;
     align-items: center;
     border: 1px var(--bar-border-color) solid;
+    overflow: hidden;
 }
 
 .social__bar--two {
@@ -112,7 +113,8 @@
 .social__bar--label {
     color: var(--text-color);
     margin: 15px;
-
+    text-overflow: unset;
+    overflow: scroll;
 }
 
 .social__bar--link {
