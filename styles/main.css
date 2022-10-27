@@ -92,7 +92,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px var(--bar-border-color) solid;
+    outline: 1px var(--bar-border-color) solid;
     overflow: hidden;
 }
 
@@ -114,7 +114,10 @@
     color: var(--text-color);
     margin: 15px;
     text-overflow: unset;
-    overflow: scroll;
+}
+
+.social__bar--label-scroll {
+    overflow-x: scroll;
 }
 
 .social__bar--link {
@@ -156,7 +159,7 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    border: 1px var(--bar-border-color) solid;
+    outline: 1px var(--bar-border-color) solid;
 }
 
 .donate__bar--heading {
