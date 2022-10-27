@@ -218,28 +218,3 @@
     text-align: center;
     user-select: all;
 }
-
-/* Footer */
-
-.footer {
-    display: flex;
-    justify-content: center;
-    margin: 18px 10px;
-}
-
-.footer__credits {
-    display: flex;
-    justify-content: center;
-}
-
-.footer__credits--style {
-    margin: 0;
-    font-size: 18px;
-    color: #aeaeae;
-    font-weight: 400;
-    text-decoration: none;
-}
-
-.footer__credits--separator {
-    margin: 0 8px;
-}
