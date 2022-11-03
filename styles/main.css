@@ -21,12 +21,11 @@
 @media (prefers-color-scheme: dark) {
     .page__body {
         --bg-color: #000;
-        --logo-color: #fff;
+        --logo-color: #ffffffcc;
 
         --bar-color: #000;
-        --bar-border-color: #fff;
-        --text-color: #fff;
-
+        --bar-border-color: #ffffffcc;
+        --text-color: #ffffffcc;
     }
 }
 
@@ -109,6 +108,8 @@
 .social__bar--icon {
     width: 50px;
     margin: 15px;
+    fill: var(--text-color);
+    fill-rule:evenodd;
 }
 
 .social__bar--label {
@@ -186,6 +187,7 @@
 .donate__bar--icon {
     width: 50px;
     margin-left: 15px;
+    fill: var(--text-color);
 }
 
 .donate__bar--label {
@@ -204,7 +206,7 @@
 .donate__bar--qr {
     width: 100%;
     padding: 25px;
-    background-color: #fff;
+    background-color: var(--text-color);
     border-radius: 25px;
 }
 
