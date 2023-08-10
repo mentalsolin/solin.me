@@ -4,41 +4,12 @@
     box-sizing: border-box;
 }
 
-
-/* Colors */
-
-@media (prefers-color-scheme: light) {
-    .page__body {
-        --bg-color: #fff;
-        --logo-color: #000;
-
-        --bar-color: #000;
-        --bar-border-color: none;
-        --text-color: #fff;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    .page__body {
-        --bg-color: #000;
-        --logo-color: #ffffffcc;
-
-        --bar-color: #000;
-        --bar-border-color: #ffffffcc;
-        --text-color: #ffffffcc;
-    }
-}
-
-
 /* Page */
-
-.page {
-
-}
 
 .page__body {
     margin: 0;
     background-color: var(--bg-color);
+    color: var(--logo-color);
     font-weight: 500;
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;

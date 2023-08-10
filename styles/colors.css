@@ -1,22 +1,7 @@
-@media (prefers-color-scheme: light) {
-    .page__body {
-        --bg-color: #fff;
-        --logo-color: #000;
-
-        --bar-color: #000;
-        --bar-border-color: none;
-        --text-color: #fff;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    .page__body {
-        --bg-color: #000;
-        --logo-color: #fff;
-
-        --bar-color: #000;
-        --bar-border-color: #fff;
-        --text-color: #fff;
-
-    }
+:root {
+    --bg-color: #E3DBD7;
+    --bar-color: #D7D0CC;
+    --logo-color: #212121;
+    --text-color: #212121;
+    --secondary-color: #827E7C;
 }
