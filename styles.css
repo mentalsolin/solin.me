@@ -11,6 +11,7 @@
     margin: 100px 30px 30px 30px;
     display: flex;
     justify-content: center;
+    user-select: none;
 }
 
 h1, h2, h3, p {
@@ -66,6 +67,10 @@ h1, h2, h3, p {
     align-items: center;
 }
 
+.bars__bar:hover {
+    transform: scale(1.5px);
+}
+
 .bars__bar--logo {
     width: 40px;
     height: 40px;
@@ -118,4 +123,13 @@ h1, h2, h3, p {
 .footer__exclamation-mark {
     font-size: 12px;
     font-style: italic;
+}
+
+.footer__libraries {
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.footer__libraries--link {
+    color: var(--secondary-color);
 }
