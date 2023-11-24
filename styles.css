@@ -48,15 +48,21 @@ h1, h2, h3, p {
 
 
 
-.bars {
+
+
+.links {
     display: grid;
     margin: 0;
     padding: 0;
     list-style-type: none;
     row-gap: 20px;
+    grid-template-columns: 3fr;
+    justify-content: space-between;
+    row-gap: 15px;
+    column-gap: 15px;
 }
 
-.bars__bar {
+.links__bar {
     height: 80px;
     width: 100%;
     background-color: var(--secondary-color);
@@ -67,48 +73,88 @@ h1, h2, h3, p {
     align-items: center;
 }
 
-.bars__bar:hover {
-    transform: scale(1.5px);
-}
-
-.bars__bar--logo {
-    width: 40px;
-    height: 40px;
-    margin-left: 20px;
-    position: relative;
-}
-
-.bars__bar--logo-brand {
-    width: 100%;
-    height: 100%;
-}
-
-.bars__bar--logo-exclamation-mark {
-    position: absolute;
-    top: -6px;
-    right: -6px;
-}
-
-.bars__bar--nickname {
-    font-size: 18px;
-    font-weight: 500;
-    color: var(--main-color);
-    margin-right: 20px;
-}
-
-@media (min-width: 340px) {
-    .bars__bar--nickname {
-        font-size: 22px;
+@media (min-width: 390px) {
+    .links__bar {
+        grid-column: span 4;
     }
 }
 
-.bars__bar--link {
+.links__bar--logo {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.links__bar--nickname {
+    color: var(--main-color);
+    font-weight: 500;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.links__bar--link {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
 }
+
+
+
+
+
+.links__square {
+    position: relative;
+    height: 70px;
+    width: 100%;
+    background-color: var(--secondary-color);
+    border-radius: 25px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+@media (min-width: 390px) {
+    .links__square {
+        width: 70px;
+        justify-content: center;
+    }
+}
+
+.links__square--logo {
+    position: relative;
+    height: 40px;
+    margin-left: 20px;
+}
+
+@media (min-width: 390px) {
+    .links__square--logo {
+        margin: 0;
+    }
+}
+
+.links__square--logo-brand {
+
+}
+
+.links__square--logo-exclamation-mark {
+    position: absolute;
+    top: -6px;
+    right: -6px
+}
+
+.links__square--link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
 
 
 .footer {
@@ -123,13 +169,4 @@ h1, h2, h3, p {
 .footer__exclamation-mark {
     font-size: 12px;
     font-style: italic;
-}
-
-.footer__libraries {
-    font-size: 12px;
-    margin-top: 10px;
-}
-
-.footer__libraries--link {
-    color: var(--secondary-color);
 }
