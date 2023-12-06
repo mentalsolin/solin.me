@@ -109,7 +109,7 @@ h1, h2, h3, p {
 .links__square {
     position: relative;
     height: 70px;
-    width: 100%;
+    width: 70px;
     background-color: var(--secondary-color);
     border-radius: 25px;
     display: flex;
@@ -119,7 +119,6 @@ h1, h2, h3, p {
 
 @media (min-width: 390px) {
     .links__square {
-        width: 70px;
         justify-content: center;
     }
 }
@@ -127,7 +126,7 @@ h1, h2, h3, p {
 .links__square--logo {
     position: relative;
     height: 40px;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 @media (min-width: 390px) {
