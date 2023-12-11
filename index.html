@@ -1,77 +1,93 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head class="page">
+<html lang="en" class="page">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#fff6f5">
-    
+    <link rel="stylesheet" href="styles.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@700&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/index.css">
 
     <link rel="icon" type="image/x-icon" href="./favicon.svg">
     <title>This is Solin</title>
 </head>
-<body class="page__body" id="body">
+<body class="page__body">
     <div class="container">
-        <header class="header">
+        <header class="header container__inner">
             <p class="header__subtitle">This is</p>
             <h1 class="header__title">Solin</h1>
+            <div class="header__rainbow">
+                <img class="header__rainbow--image" src="./images/rainbow.svg" alt="Rainbow">
+            </div>
         </header>
-        <main class="main">
-            <ul class="links">
-                <li class="links__bar">
-                    <div class="links__bar--logo">
-                        <img class="links__bar--logo-brand" src="./assets/@.svg" alt="@">
+        <main class="container__inner content">
+            <ul class="bars">
+                <li class="bars__item">
+                    <div class="logo">
+                        <img class="logo__image" src="./images/icons/@.svg" alt="@">
                     </div>
-                    <p class="links__bar--nickname">Solin's Blog</p>
-                    <a class="links__bar--link" href="https://blog.solin.cc"></a>
+                    <div class="heading">
+                        <p class="heading__title">My Blog</p>
+                    </div>
+                    <a class="bars__item__link" rel="stylesheet" href="https://blog.solin.cc"></a>
                 </li>
-                <li class="links__square">
-                    <div class="links__square--logo">
-                        <img class="links__square--logo-brand" src="./assets/facebook.svg" alt="Facebook">
-                        <img class="links__square--logo-exclamation-mark" src="./assets/exclamation-mark.svg" alt="*">
+                <li class="bars__item">
+                    <div class="logo">
+                        <img class="logo__image" src="./images/icons/github.svg" alt="github">
                     </div>
-                    <a class="links__square--link" href="https://www.facebook.com/mentalsolin"></a>
+                    <div class="heading">
+                        <p class="heading__title">GitHub</p>
+                    </div>
+                    <a class="bars__item__link" rel="stylesheet" href="https://github.com/mentalsolin"></a>
                 </li>
-                <li class="links__square">
-                    <div class="links__square--logo">
-                        <img class="links__square--logo-brand" src="./assets/vk.svg" alt="VK">
+                <li class="bars__item">
+                    <div class="logo">
+                        <img class="logo__image" src="./images/icons/vk.svg" alt="vk">
                     </div>
-                    <a class="links__square--link" href="https://vk.com/mentalsolin"></a>
+                    <div class="heading">
+                        <p class="heading__title">VK</p>
+                    </div>
+                    <a class="bars__item__link" rel="stylesheet" href="https://vk.com/mentalsolin"></a>
                 </li>
-                <li class="links__square">
-                    <div class="links__square--logo">
-                        <img class="links__square--logo-brand" src="./assets/x.svg" alt="𝕏">
+                <li class="bars__item">
+                    <div class="logo">
+                        <img class="logo__image" src="./images/icons/facebook.svg" alt="facebook">
+                        <span class="logo__exclamation-mark exclamation-mark"></span>
                     </div>
-                    <a class="links__square--link" href="https://twitter.com/mentalsolin"></a>
+                    <div class="heading">
+                        <p class="heading__title">Facebook</p>
+                        <span class="heading__exclamation-mark exclamation-mark"></span>
+                    </div>
+                    <a class="bars__item__link" rel="stylesheet" href="https://www.facebook.com/mentalsolin"></a>
                 </li>
-                <li class="links__square">
-                    <div class="links__square--logo">
-                        <img class="links__square--logo-brand" src="./assets/instagram.svg" alt="Instagram">
-                        <img class="links__square--logo-exclamation-mark" src="./assets/exclamation-mark.svg" alt="*">
+                <li class="bars__item">
+                    <div class="logo">
+                        <img class="logo__image" src="./images/icons/x.svg" alt="x">
                     </div>
-                    <a class="links__square--link" href="https://www.instagram.com/mentalsolin"></a>
+                    <div class="heading">
+                        <p class="heading__title">The X</p>
+                    </div>
+                    <a class="bars__item__link" rel="stylesheet" href="https://twitter.com/mentalsolin"></a>
                 </li>
-                <li class="links__square">
-                    <div class="links__square--logo">
-                        <img class="links__square--logo-brand" src="./assets/github.svg" alt="GitHub">
+                <li class="bars__item">
+                    <div class="logo">
+                        <img class="logo__image" src="./images/icons/instagram.svg" alt="instagram">
+                        <span class="logo__exclamation-mark exclamation-mark"></span>
                     </div>
-                    <a class="links__square--link" href="https://github.com/mentalsolin"></a>
+                    <div class="heading">
+                        <p class="heading__title">Instagram</p>
+                        <span class="heading__exclamation-mark exclamation-mark"></span>
+                    </div>
+                    <a class="bars__item__link" rel="stylesheet" href="https://www.instagram.com/mentalsolin"></a>
                 </li>
-                <!-- <li class="links__square">
-                    <div class="links__square--logo">
-                        <img class="links__square--logo-brand" src="./assets/linkedin.svg" alt="LinkedIn">
-                    </div>
-                    <a class="links__square--link" href="#"></a>
-                </li> -->
             </ul>
         </main>
-        <footer class="footer">
-            <hr class="footer__bar">
-            <p class="footer__exclamation-mark">*деятельность организации Meta Platforms Inc и ее продуктов Instagram и Facebook запрещена в Российской Федерации.</p>
+        <footer class="footer container__inner">
+            <hr class="footer__horizontal-rule">
+            <p class="footer__desc">*деятельность организации Meta Platforms Inc и ее продуктов Instagram и Facebook запрещена в Российской Федерации.</p>
         </footer>
     </div>
 </body>

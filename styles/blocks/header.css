@@ -1,0 +1,31 @@
+.header {
+    position: relative;
+}
+
+.header__subtitle {
+    padding-top: 150px;
+    animation: showContent 0.8s forwards;
+}
+
+.header__title {
+    font-family: 'Space Grotesk';
+    font-size: 100px;
+    font-weight: 700;
+    animation: showContent 1.2s forwards;
+}
+
+.header__rainbow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.header__rainbow--image {
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    animation: rainbow 1.2s forwards;
+}

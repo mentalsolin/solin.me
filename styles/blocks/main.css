@@ -1,0 +1,60 @@
+.page {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    user-select: none;
+    color: var(--primary);
+}
+
+.page__body {
+    margin: 0;
+    background-color: var(--bg);
+}
+
+.container {
+    width: 450px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.container__inner {
+    padding: 0 30px;
+}
+
+h1, p {
+    margin: 0;
+}
+
+
+/* Animations */
+
+@keyframes rainbow {
+    0% {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 100%;
+        transform: scale(1);
+    }
+}
+
+@keyframes showContent {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 100%;
+        transform: translateY(0px);
+    }
+}
+
+@keyframes showFooter {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
