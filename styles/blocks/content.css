@@ -10,6 +10,7 @@
     background: url('../../images/icons/exclamation-mark.svg') no-repeat;
     height: 8px;
     width: 8px;
+    filter: var(--invert);
 }
 
 .bars {
@@ -62,7 +63,7 @@
 }
 
 .logo__exclamation-mark {
-    filter: var(--invert);
+    
 }
 
 
