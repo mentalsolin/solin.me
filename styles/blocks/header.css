@@ -18,7 +18,6 @@
 
 .header__gradient {
     border-radius: 60px;
-    background: linear-gradient(180deg, #D9CEF3 0%, #F5B7C2 100%);
     width: 230px;
     height: 350px;
     animation: showContent 1.2s forwards;
