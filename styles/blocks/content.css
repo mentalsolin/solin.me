@@ -3,16 +3,6 @@
     animation: showContent 1.6s forwards;
 }
 
-.exclamation-mark {
-    position: absolute;
-    top: -6px;
-    right: -6px;
-    background: url('../../images/icons/exclamation-mark.svg') no-repeat;
-    height: 8px;
-    width: 8px;
-    filter: var(--invert);
-}
-
 .bars {
     margin: 0;
     padding: 0;
@@ -24,12 +14,12 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 74px;
-    border: 3px solid var(--secondary);
-    border-radius: 25px;
+    height: 80px;
     margin-bottom: 15px;
     align-items: center;
     font-weight: 600;
+    background-color: var(--bg-secondary);
+    border-radius: 30px;
     transition: transform 0.2s;
 }
 
@@ -62,10 +52,6 @@
     filter: var(--invert);
 }
 
-.logo__exclamation-mark {
-    
-}
-
 
 /* Heading */
 
@@ -78,6 +64,3 @@
 
 }
 
-.heading--exclamation-mark {
-
-}

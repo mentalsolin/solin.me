@@ -1,32 +1,26 @@
 .header {
     position: relative;
-}
-
-.header__subtitle {
-    padding-top: 150px;
-    animation: showContent 0.8s forwards;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 60px;
 }
 
 .header__title {
+    position: absolute;
     font-family: 'Space Grotesk';
     font-size: 100px;
-    font-weight: 700;
+    font-weight: 500;
+    animation: showContent 1.2s forwards;
+    left: 30px;
+    bottom: 20px;
+    z-index: 1000;
+}
+
+.header__gradient {
+    border-radius: 60px;
+    background: linear-gradient(180deg, #D9CEF3 0%, #F5B7C2 100%);
+    width: 230px;
+    height: 350px;
     animation: showContent 1.2s forwards;
 }
 
-.header__rainbow {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
-}
-
-.header__rainbow--image {
-    width: 400px;
-    height: 400px;
-    border-radius: 200px;
-    margin-top: -200px;
-    animation: rainbow 1.2s forwards;
-}
