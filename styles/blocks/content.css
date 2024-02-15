@@ -47,7 +47,8 @@
 }
 
 .logo__image {
-    height: 100%;
+    height: 40px;
+    width: 40px;
     margin-left: 17px;
     filter: var(--invert);
 }
